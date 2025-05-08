@@ -47,4 +47,22 @@ Steps to Solve the problem:
 1. Start the for loop command and specify the range from 1 to 51 as in range the last number is excluded and here in problem we want '50' to be included in the sum
 2. Give the print command to print the sum of the range(1,51).
 3. Now, if you run the code gere it will print the result 50 times but we want it to print only once hence we will add 'break' after giving the print command.
-4. 'Break' will stop the loop and give the desired output statement. 
+4. 'Break' will stop the loop and give the desired output statement.
+
+ASSIGNMNET 3
+
+TASK 1: 
+
+How to solve the problem:
+1. Taking the integer input like previous tasks.
+2. Define the function: factorial(entered number).
+3. Start the if and else condition to solve factorial and give return statement.
+4. Give print command to print the result with desired statement.
+
+TASK 2: 
+
+How to Solve the problem:
+1. Like before take the integer input from user.
+2. import all from maths (*) - so that you dont have to import every single function.
+3. Now print the desired function for the number. to avoid giving print statement again and again use '\n' after every function, this will give the result in new line.
+
