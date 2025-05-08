@@ -40,7 +40,9 @@ Steps to solve the problem:
 2. State the if condition to check if dividing the entered number by 2 will give a remainder of 0.
 3. Give the print command to print the 'number is even' if the condition is true, else to print it is an odd number.
 
-TASK 2
+TASK 2: Find Sum of Integers from 1 to 50 Using a Loop
+
+Steps to Solve the problem:
 1. Start the for loop command and specify the range from 1 to 51 as in range the last number is excluded and here in problem we want '50' to be included in the sum
 2. Give the print command to print the sum of the range(1,51).
 3. Now, if you run the code gere it will print the result 50 times but we want it to print only once hence we will add 'break' after giving the print command.
