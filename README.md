@@ -33,6 +33,7 @@ How to solve the problem:
   5. Run the code with your desired greeting.
 
 ASSIGNMNET 2
+
 TASK 1: To Check if a Number is Even or Odd.
 
 Steps to solve the problem:
