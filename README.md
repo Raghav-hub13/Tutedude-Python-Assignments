@@ -1,5 +1,7 @@
-# Tutedude-Python-Assignment 1
-  This repository contains Task 1 and Task 2 of Assignment 1 of the Python course of tutedude.
+# Tutedude-Python-Assignments (1 - 5)
+  This repository contains Assignments 1-5 of the Python course of tutedude.
+
+ASSIGNMNENT 1
 
 Task 1: Perform Basic Mathematical Operations
   Problem Statement: Write a Python program that does the following:
@@ -29,3 +31,17 @@ How to solve the problem:
   3. But, here's a thing, as we add string, it will be added as the input is; for eg: first name = John last name = doe. then adding both will give Johndoe.( no space in between). Hence, we will give spaces in " " to add this space.
   4. "string 1" + "string 2" will give you the result as - string 1string 2. To add space in between them, we will give space before string 2 as -" string2".
   5. Run the code with your desired greeting.
+
+ASSIGNMNET 2
+TASK 1: To Check if a Number is Even or Odd.
+
+Steps to solve the problem:
+1. Take the integer input [int(input)] for user to enter the number.
+2. State the if condition to check if dividing the entered number by 2 will give a remainder of 0.
+3. Give the print command to print the 'number is even' if the condition is true, else to print it is an odd number.
+
+TASK 2
+1. Start the for loop command and specify the range from 1 to 51 as in range the last number is excluded and here in problem we want '50' to be included in the sum
+2. Give the print command to print the sum of the range(1,51).
+3. Now, if you run the code gere it will print the result 50 times but we want it to print only once hence we will add 'break' after giving the print command.
+4. 'Break' will stop the loop and give the desired output statement. 
