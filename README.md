@@ -49,7 +49,7 @@ Steps to Solve the problem:
 3. Now, if you run the code gere it will print the result 50 times but we want it to print only once hence we will add 'break' after giving the print command.
 4. 'Break' will stop the loop and give the desired output statement.
 
-ASSIGNMNET 3
+ASSIGNMENT 3
 
 TASK 1: 
 
@@ -65,4 +65,33 @@ How to Solve the problem:
 1. Like before take the integer input from user.
 2. import all from maths (*) - so that you dont have to import every single function.
 3. Now print the desired function for the number. to avoid giving print statement again and again use '\n' after every function, this will give the result in new line.
+
+
+ASSIGNMENT 4
+
+TASK 1:  Read a File and Handle Errors 
+
+How to solve the problem:
+1. Create a text file named sample.txt.
+2. Start with the 'try' command and open the file with the read command as 'open(sample.txt', 'r'), --> r = read.
+3. Now, to read lines one by one start as - ' reading_file1 = file.readline(-1)' to print the first line entirely. Remember to put -1 and not 1 as it will read first character only i.e H.
+4. Similarly, repeat the command for line 2 'reading_file2 = file.readline(-2)' to print the second line. Remember to mention the command with reading files 1 and 2 so that you can print it separately as per question.
+5. Now give the print command mentioning your desired command before the line which will be printed.
+6. Next mention except command for error: file not found.
+7. then give final command as 'finally: print()'.
+8. lastly close the file as file.close().
+
+
+TASK 2: Write and Append Data to a File
+
+How to Solve the Problem:
+1. Here, first you have to take the user input where user can write the text which they want in file.
+2. Use 'with open' (The with open() statement in Python provides a way to automatically manage the opening and closing of files, ensuring that files are properly closed even if errors occur) to first write the text ('w').
+3. Print 'data is successfully added to the file'.
+4. Remember, here its not necessary for the close command as you have used 'with open'.
+5. Directly start with appending the file like above. Take additional input or user input2 (to differentiate from user input).
+6. Print 'data is successfully appended to the file'.
+7. Now , print the final content with read command and it will give all the contents added and ammended in the file.
+
+
 
