@@ -94,4 +94,18 @@ How to Solve the Problem:
 7. Now , print the final content with read command and it will give all the contents added and ammended in the file.
 
 
+ASSIGNMENT 5
+
+TASK 1: Create a Dictionary of Student Marks
+1.Create a dictionary with key as name of students and value as their marks. students_marks = {key,value}
+2. Now take the input for students name from user.
+3. Give the if condition for name to be found in dictionary and print the value of that name else print details not found.
+
+
+TASK 2: Demonstrate List Slicing 
+1. Start by creating a list of numbers from 1 to 10. to avoid writing whole series use the range function (remember that end number in range is not included hence range to list numbers from 1 to 10 would be (1,11). [numbers = list(range(1,11)).
+2. To slice first five numbers use 'numbers[0:5]' ot simply 'numbers[:5]' as this means it will start with index zero. hence, first five numbers starting from index zero will be [1,2,3,4,5].
+3. next mention reversed five as[5::-1] or [::-1] this means it will start from index 5 and go till last. start:stop:step, and -1 means "go backwards." But this is NOT applied on original list but in first five which we calculated just above. do not add '0'in slice as [5:0:-1] as this will not include the number on zero index (end number or stop number is not included).
+4. Positive indexes: start from 0 (left to right), Negative indexes: start from -1 (right to left).
+4. Now give print statements for all and run the code.
 
